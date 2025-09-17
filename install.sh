@@ -62,7 +62,7 @@ if [ -d "$INSTALL_DIR" ]; then
     rm -rf "$INSTALL_DIR"
 fi
 log_jack_in "Качаю чертежи из Сети..."
-git clone https://github.com/r0ckerboy/n8n-beget-install.git "$INSTALL_DIR"
+git clone https://github.com/r0ckerboy/zavod.git "$INSTALL_DIR"
 cd "$INSTALL_DIR"
 
 # Запрос данных для заказа
